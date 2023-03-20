@@ -65,11 +65,12 @@ client.on("messageCreate", (message) => {
   if (
     message.content.includes("vlad") ||
     message.content.includes("costel") ||
-    message.content.includes("nicu")
+    message.content.includes("nicu") ||
+    message.content.includes("frosin")
   ) {
-    message.reply("prost");
+    message.reply("user");
   } else if (message.content.includes("andrei")) {
-    message.reply("smecher");
+    message.reply("admin");
   }
 });
 

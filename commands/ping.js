@@ -7,6 +7,6 @@ module.exports = {
   async execute(interaction) {
     if (interaction.user.username === "AndreiZk")
       await interaction.reply("Da, maestre");
-    else await interaction.reply("Nu raspund la sclavi");
+    else await interaction.reply("Nu raspund");
   },
 };
